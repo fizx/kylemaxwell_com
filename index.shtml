@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Kyle Maxwell</title>
+		<style>
+		*{
+			margin:0;
+			padding:0;
+			list-style:none;
+		}
+		h2{
+			margin-bottom:10px;
+		}
+		body {
+			background-color:#a1b06a;
+			font-family:sans-serif;
+		}
+		#card {
+			border:1px silver solid;
+			padding:30px;
+			margin:60px;
+			width:500px;
+			background-color:white;
+		}
+		#description {
+			margin-bottom:30px;
+		}
+		li {
+			display:inline;
+			margin-right:10px;
+		}
+		img {
+			float:right;
+			border:1px silver solid;
+			padding:1px;
+			margin: 0 0 10px 10px;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="card">
+			<img src="icon.jpg">
+			<h1>Kyle Maxwell</h1>
+			<div id="content">
+				<div id="description">
+					Hi.  I'm Kyle.  This is an online index into my online life.  You can always reach me at first-name@domain.com.  I'm currently working at <a href="http://www.casttv.com">CastTV</a>, doing interesting things with search.  In past lives, I've worked with Ruby on Rails, physics, and advertising agencies.
+				</div>
+				<div id="social">
+					<h2>Find me on:</h2>
+					<ul>
+						<li><a href="http://www.casttv.com/about/">my employer's site</a></li>
+						<li><a href="http://www.github.com/fizx">GitHub</a></li>
+						<li><a href="http://www.new.facebook.com/people/Kyle_Maxwell/3303334">facebook</a></li>
+						<li><a href="http://www.twitter.com/kmx"><strike>twitter</strike></a> (not active)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
