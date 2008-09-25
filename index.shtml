@@ -34,6 +34,9 @@
 			padding:1px;
 			margin: 0 0 10px 10px;
 		}
+		div.listy{
+			margin-top: 30px;
+		}
 		</style>
 	</head>
 	<body>
@@ -44,13 +47,24 @@
 				<div id="description">
 					Hi.  I'm Kyle.  This is an online index into my online life.  You can always reach me at first-name@domain.com.  I'm currently working at <a href="http://www.casttv.com">CastTV</a>, doing interesting things with search.  In past lives, I've worked with Ruby on Rails, physics, and advertising agencies.
 				</div>
-				<div id="social">
+				<div class="listy">
 					<h2>Find me on:</h2>
 					<ul>
 						<li><a href="http://www.casttv.com/about/">my employer's site</a></li>
 						<li><a href="http://www.github.com/fizx">GitHub</a></li>
 						<li><a href="http://www.new.facebook.com/people/Kyle_Maxwell/3303334">facebook</a></li>
 						<li><a href="http://www.twitter.com/kmx"><strike>twitter</strike></a> (not active)</li>
+					</ul>
+				</div>
+				
+				<div class="listy">
+					<h2>Some projects</h2>
+					<p>
+						I haven't been able to find Ruby gems for either a robots.txt parser, or a thread pool implementation. So I wrote my own.
+					</p>
+					<ul>
+						<li><a href="http://github.com/fizx/thread_pool/tree/master">thread pool (ruby)</a></li>
+						<li><a href="http://github.com/fizx/robots/tree/master">robots.txt parser (ruby)</a></li>
 					</ul>
 				</div>
 			</div>
