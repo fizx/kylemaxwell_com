@@ -11,7 +11,7 @@
 			margin-bottom:10px;
 		}
 		body {
-			background-color:#a1b06a;
+			background-color:#333;
 			font-family:sans-serif;
 		}
 		#card {
@@ -37,6 +37,10 @@
 		div.listy{
 			margin-top: 30px;
 		}
+		em{
+		  font-style:normal;
+		  background-color:#ffc;
+		}
 		</style>
 	</head>
 	<body>
@@ -45,12 +49,13 @@
 			<h1>Kyle Maxwell</h1>
 			<div id="content">
 				<div id="description">
-					Hi.  I'm Kyle.  This is an online index into my online life.  You can always reach me at first-name@domain.com.  I'm currently working at <a href="http://www.casttv.com">CastTV</a>, doing interesting things with search.  In past lives, I've worked with Ruby on Rails, physics, and advertising agencies.
+					Hi.  I'm Kyle.  This is an online index into my online life.  You can always reach me at first-name@domain.com.  I'm currently <strike>working at <a href="http://www.casttv.com">CastTV</a>, doing interesting things with search</strike> <em>starting on a new venture, changing the way the world views the web</em>.  In past lives, I've worked with Ruby on Rails, physics, and advertising agencies.
 				</div>
 				<div class="listy">
 					<h2>Find me on:</h2>
 					<ul>
-						<li><a href="http://www.casttv.com/about/">my employer's site</a></li>
+            <!-- <li><strike><a href="http://www.casttv.com/about/">my employer's site</a></strike></li> -->
+            
 						<li><a href="http://www.github.com/fizx">GitHub</a></li>
 						<li><a href="http://www.new.facebook.com/people/Kyle_Maxwell/3303334">facebook</a></li>
 						<li><a href="http://www.twitter.com/kmx"><strike>twitter</strike></a> (not active)</li>
