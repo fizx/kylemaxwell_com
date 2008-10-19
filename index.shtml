@@ -65,11 +65,12 @@
 				<div class="listy">
 					<h2>Some projects</h2>
 					<p>
-						I haven't been able to find Ruby gems for either a robots.txt parser, or a thread pool implementation. So I wrote my own.
+						I haven't been able to find Ruby gems for either a robots.txt parser, or a thread pool implementation. So I wrote my own. </p><p>I'm also working on a filesystem abstraction layer (called keyhole), so you can swap out (at least S3, mogilefs, and local) filesystems without affecting your application.
 					</p>
 					<ul>
-						<li><a href="http://github.com/fizx/thread_pool/tree/master">thread pool (ruby)</a></li>
-						<li><a href="http://github.com/fizx/robots/tree/master">robots.txt parser (ruby)</a></li>
+						<li><a href="http://github.com/fizx/thread_pool/tree/master">thread&nbsp;pool&nbsp;(ruby)</a></li>
+						<li><a href="http://github.com/fizx/robots/tree/master">robots.txt&nbsp;parser&nbsp;(ruby)</a></li>
+						<li><a href="http://github.com/fizx/keyhole/tree/master">keyhole&nbsp;(ruby)</a></li>
 					</ul>
 				</div>
 			</div>
