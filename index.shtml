@@ -7,8 +7,14 @@
 			padding:0;
 			list-style:none;
 		}
-		h2, p{
+		h2{
+			margin-bottom:0px;
+		}
+		p{
 			margin-bottom:10px;
+		}
+		h3{
+			margin-top:30px;
 		}
 		body {
 			background-color:#333;
@@ -35,7 +41,7 @@
 			margin: 0 0 10px 10px;
 		}
 		div.listy{
-			margin-top: 30px;
+			margin-top: 20px;
 		}
 		em{
 		  font-style:normal;
@@ -49,10 +55,10 @@
 			<h1>Kyle Maxwell</h1>
 			<div id="content">
 				<div id="description">
-					Hi.  I'm Kyle.  This is an online index into my online life.  You can always reach me at first-name@domain.com.  I'm currently <strike>working at <a href="http://www.casttv.com">CastTV</a></strike> <em>starting on a new venture, changing the way the world views the web</em>.  In past lives, I've worked with web-scale information retrieval, Ruby on Rails, physics, and advertising agencies.
+					Hi.  I'm Kyle.  This is an online index into my online life.  You can always reach me at first-name@domain.com.  I'm currently starting on a new venture, changing the way the world views the web.  In past lives, I've worked with web-scale information retrieval, Ruby on Rails, physics, and advertising agencies.
 				</div>
 				<div class="listy">
-					<h2>Find me on:</h2>
+					<h3>Find me on:</h3>
 					<ul>
             <!-- <li><strike><a href="http://www.casttv.com/about/">my employer's site</a></strike></li> -->
             
@@ -60,10 +66,15 @@
 						<li><a href="http://www.new.facebook.com/people/Kyle_Maxwell/3303334">facebook</a></li>
 						<li><a href="http://www.twitter.com/kmx"><strike>twitter</strike></a> (not active)</li>
 					</ul>
-				</div>
-				
-				<div class="listy">
-					<h2>Some projects</h2>
+					<h3>SelectorGadget</h3>
+					<p><em><a href="http://www.andrewcantino.com">Andrew Cantino</a> and I have built a simple bookmarklet to let you inspect the css selector paths of a web page.
+						</em>
+					</p>
+					<ul>
+						<li><a href="http://www.selectorgadget.com">selectorgadget.com</a></li>
+						<li><a href="http://github.com/tectonic/selectorgadget">on github</a></li>
+					</ul>
+					<h3>Miscellaneous gems</h3>
 					<p>
 						I haven't been able to find Ruby gems for either a robots.txt parser, or a thread pool implementation. So I wrote my own. </p><p>I'm also working on a filesystem abstraction layer (called keyhole), so you can swap out (at least S3, mogilefs, and local) filesystems without affecting your application.
 					</p>
