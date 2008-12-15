@@ -1,0 +1,47 @@
+<document name="Untitled">
+	<resources>
+		<resource id="photo">fixtures/large.jpg</resource>
+		<resource id="arial narrow">fonts/ArialNarrow.swf</resource>
+		<resource id="fonty">fonts/Myriad.swf</resource>
+		<resource id="bkg1">fixtures/bkg1.jpg</resource>
+	</resources>
+	<menu>
+		<item label="File">
+			<item label="New" url="template.xml" action="redirect" />
+			<item label="Open" url="fixtures/document-list.xml" action="open" />
+			<item label="Save" url="save.do" action="save" />
+			<item label="Save as.." url="test/fixtures/dummyaction" action="saveas" />
+			
+			<item label="Quit" url="javascript:window.close()" action="redirect" />
+		</item>
+		<item label="Edit">
+			<item label="Arial Narrow" action="format" font="arial narrow" />
+			<item label="Myriad" action="format" font="myriad" />
+			<item label="Big" action="format" size="36" />
+			<item label="Small" action="format" size="12" />
+			<item label="Joe" action="format" size="1" />
+		</item> 
+		<item label="Output">
+			<item label="Publish" url="publish.do" action="save" />
+		</item>
+		<item label="Compliance">
+			<item label="Send!" url="compliance.do" />
+		</item>
+	</menu>
+	<pages>
+		<page width="1000" height="1000" background="bkg1">
+			<block type="text" x="25" y="25" width="150" height="150" text="1" index="1"><![CDATA[<p><font face="arial narrow">ABC <i> Blah</i> Blahds fdsa fsdaf sdaf dsafdsafdsfdsa fsda dsaf dsaf dsfsdfdsafdsaf</font></p><font face="myriad"><li>asfdsaf</li><li><u>asfdsaf</u></li></font>]]></block>
+			<block type="text" x="250" y="145" width="385" height="229" text="1" index="2"><![CDATA[<p><font size="35" face="arial narrow">Blah                <i color="#0000ff">Blah</i> Blah</font></p>]]></block>
+			<block type="photo" id="3" boxX="250" boxY="220" boxWidth="362" boxHeight="129" width="170" src="photo" align="middlecenter" />
+			
+			<block type="photo" id="3" boxX="0" boxY="220" boxWidth="362" boxHeight="129" width="170" src="photo" align="middlecenter" />
+    	</page>
+		<page width="1000" height="1000" background="bkg1">
+			<block type="text" x="25" y="25" width="150" height="150" text="2" index="1"><![CDATA[<p><font face="arial narrow">Blah <i> Blah</i> Blahds fdsa fsdaf sdaf dsafdsafdsfdsa fsda dsaf dsaf dsfsdfdsafdsaf</font></p><font face="myriad"><li>asfdsaf</li><li><u>asfdsaf</u></li></font>]]></block>
+		</page>
+    </pages>
+	<texts>
+		<text id="1"><![CDATA[<p><font size="35" face="arial narrow">Blah <i>Blah</i> Blahds fdsa fsdaf sdaf dsafdsafdsfdsa fsda dsaf dsaf dsfsdfdsafdsaf</font></p><font face="myriad"><li>asfdsaf</li><li><u>asfdsaf</u></li></font><p>---</p><p><font size="35" face="arial narrow">Blah <i color="#0000ff">Blah</i> Blah</font></p>]]></text>
+		<text id="2"><![CDATA[<p><font size="35" face="arial narrow">Blah <i>Blah</i> Blahds fdsa fsdaf sdaf dsafdsafdsfdsa fsda dsaf dsaf dsfsdfdsafdsaf</font></p><font face="myriad"><li>asfdsaf</li><li><u>asfdsaf</u></li></font><p>---</p><p><font size="35" face="arial narrow">Blah <i color="#0000ff">Blah</i> Blah</font></p>]]></text>
+	</texts>
+</document>

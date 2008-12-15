@@ -1,0 +1,13 @@
+<document name="Untitled">
+	<resources>
+		<resource id="bkg1">fixtures/bkg1.jpg</resource>
+		<resource id="photo">fixtures/large.jpg</resource>
+		<resource id="fonty">fonts/ArialNarrow.swf</resource>
+		<resource id="borked">fonts/Monkeys.swf</resource>
+	</resources>
+	<!--
+	
+	...
+	
+	-->
+</document>

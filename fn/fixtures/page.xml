@@ -1,0 +1,5 @@
+<page number="1" width="1000" height="1000" background="bkg1">
+	<block type="text" x="25" y="25" width="150" height="150" text="1" index="1" />
+	<block type="text" x="250" y="145" width="385" height="229" text="1" index="2" />
+	<block type="photo" id="3" boxX="250" boxY="220" boxWidth="362" boxHeight="129" width="170" src="photo" align="middlecenter" />
+</page>

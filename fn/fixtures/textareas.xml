@@ -1,0 +1,49 @@
+<document name="Untitled">
+	<resources>
+		<resource id="bkg1">fixtures/bkg1.jpg</resource>
+		<resource id="bkg2">fixtures/bkg1.jpg</resource>
+		<resource id="photo">fixtures/large.jpg</resource>
+		<resource id="photo2">fixtures/large.jpg</resource>
+		<resource id="fonty">fonts/ArialNarrow.swf</resource>
+		<resource id="fonty">fonts/Myriad.swf</resource>
+	</resources>
+	<menu>
+		<item label="File">
+			<item label="New" url="template.xml" action="redirect" />
+			<item label="Open" url="fixtures/document-list.xml" action="open" />
+			<item label="Save" url="save.do" action="save" />
+			<item label="Save as.." url="test/fixtures/dummyaction" action="saveas" />
+			
+			<item label="Quit" url="javascript:window.close()" action="redirect" />
+		</item>
+		<item label="Edit">
+			<item label="Arial Narrow" action="format" font="arial narrow" />
+			<item label="Myriad" action="format" font="myriad" />
+			<item label="Big" action="format" size="36" />
+			<item label="Small" action="format" size="12" />
+			<item label="Joe" action="format" size="1" />
+		</item> 
+		<item label="Output">
+			<item label="Publish" url="publish.do" action="save" />
+		</item>
+		<item label="Compliance">
+			<item label="Send!" url="compliance.do" />
+		</item>
+	</menu>
+	<page number="1" width="1000" height="1000" background="bkg1">
+		<block type="text" id="1" x="10" y="10" width="400" height="200" multipage="true" static="true" overflow="2">
+			<p><font size="35" face="arial narrow">Blah <i>Blah</i> Blahds fdsa fsdaf sdaf dsafdsafdsfdsa fsda dsaf dsaf dsfsdfdsafdsaf</font></p>
+			<font face="myriad">
+			</font>
+			<p><font size="35" face="arial narrow">Blah <i color="#0000ff">Blah</i> Blah</font></p>
+		</block>
+		<block type="text" id="2" x="420" y="10" width="400" height="200" multipage="true" static="true">
+			<p><font size="35" face="arial narrow">Blah <i>Blah</i> Blahds fdsa fsdaf sdaf dsafdsafdsfdsa fsda dsaf dsaf dsfsdfdsafdsaf</font></p>
+			<font face="myriad">
+			<li>asfdsaf</li>
+			<li><u>asfdsaf</u></li>
+			</font>
+			<p><font size="35" face="arial narrow">Blah <i color="#0000ff">Blah</i> Blah</font></p>
+		</block>
+    </page>
+</document>
